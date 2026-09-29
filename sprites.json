@@ -1,0 +1,58 @@
+{
+  "_readme": [
+    "Sprite configuration for Tibia Survivor.",
+    "Sprites extracted from OpenTibia Sprite Pack (CC BY 4.0).",
+    "Author: peonso et al. — https://github.com/peonso/opentibia_sprite_pack",
+    "",
+    "Paths are relative to the game root directory.",
+    "Set any entry to null to use the procedural fallback sprite.",
+    "The game auto-scales images to the correct in-game size.",
+    "",
+    "Tile sizes reference (in-game pixels):",
+    "  monsters 32x32 (small), 64x64 (large)",
+    "  player/bots: 32x32",
+    "  tiles: 32x32"
+  ],
+
+  "monsters": {
+    "rat":         "assets/monsters/rat.png",
+    "zombie":      "assets/monsters/zombie.png",
+    "skeleton":    "assets/monsters/skeleton.png",
+    "orc":         "assets/monsters/orc.png",
+    "dark_wizard": "assets/monsters/dark_wizard.png",
+    "dragon":      "assets/monsters/dragon.png",
+    "demon":       "assets/monsters/demon.png",
+    "dragon_lord": "assets/monsters/dragon_lord.png"
+  },
+
+  "player": {
+    "outfit_0": "assets/player/outfit_0.png",
+    "outfit_1": "assets/player/outfit_1.png",
+    "outfit_2": "assets/player/outfit_2.png",
+    "outfit_3": "assets/player/outfit_3.png"
+  },
+
+  "bots": {
+    "bot_0": "assets/player/bot_0.png",
+    "bot_1": "assets/player/bot_1.png",
+    "bot_2": "assets/player/bot_2.png",
+    "bot_3": "assets/player/bot_3.png"
+  },
+
+  "tiles": {
+    "grass": "assets/tiles/grass.png",
+    "dirt":  "assets/tiles/dirt.png",
+    "water": "assets/tiles/water.png",
+    "tree":  null,
+    "stone": "assets/tiles/stone.png",
+    "snow":  "assets/tiles/snow.png",
+    "sand":  "assets/tiles/sand.png",
+    "swamp": "assets/tiles/swamp.png",
+    "lava":  "assets/tiles/lava.png"
+  },
+
+  "ui": {
+    "hud_background": null,
+    "inventory_slot": null
+  }
+}
